@@ -1,20 +1,11 @@
 
-// let testing = true;
-// console.log(typeof testing)
-// testing = 'Naw';
-// console.log(typeof testing)
+const age = 12;
 
-// let year; 
-// const birthYear = 1991;
+if (age >= 18) {
+    console.log('Sarah can drive');
+} else {
+    const yearLeft = 18 - age;
+    console.log(`Sarah needs to wait ${yearLeft} years`);
+}
 
-const firstName = 'Johnny';
-const job = 'Sr Developer';
-const birthYear = '1997';
-const year = 2023;
-
-const john = "I'm "  + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!'
-
-console.log(john);
-
-const johnNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
-console.log(johnNew)
+const birthYear = 1991
